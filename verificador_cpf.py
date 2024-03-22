@@ -1,12 +1,13 @@
 import os
 
 condicao = True
-list_cpf = []
-list_cpf_mult = []
-cpf_nine_digit = ""
-cpf_gerado = []
 
 while condicao:
+
+    list_cpf = []
+    list_cpf_mult = []
+    cpf_nine_digit = ""
+    cpf_gerado = []
 
     for i in range(11): # for para ter apenas 11 dígitos no CPF
         while True: # while para retornar toda vez que o cliente digitar letra ou mais de um número por vez
